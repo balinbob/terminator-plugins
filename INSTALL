@@ -1,0 +1,20 @@
+Terminator is a free, open-source, terminal emulator with some extra
+features, including support for plugins.  Terminator is the work of
+Chris Jones, Stephen Boddy, et al.  It is coded in Python v2, and is
+likely available in your distribution's repositories, or if not, in
+a third-party repo.   Here is a link to the Terminator project on
+Launchpad:   https://launchpad.net/terminator
+
+These plugins are also free and open-source.  To install them you
+must first have installed Terminator and it's dependencies.  Then
+you can simply drop the three *.py files into Terminator's plugins
+directory, which can be found by typing 'sudo updatedb', then
+'locate terminatorlib/plugins'.  You will need elavated privileges
+to do so.  Permissions on the files may include executable
+permission, but it is not necessary.
+
+Finally, open a Terminator window, go to Preferences->Plugins, and
+enable 'BackgroundZoom' and 'AppearanceEditor'.
+
+Bob Allred
+balinbob@gmail.com
