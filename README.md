@@ -1,5 +1,9 @@
 #terminator-plugins
 
+This project is out of date with the new terminator versions.
+It works with python2 and gtk2, I use it with the old version
+of terminator (0.98) available on launchpad. 2019-09-10
+--------------------------------------------------------
 Two related plugins for the Terminator terminal emulator:
 File #1 is "my_plugin.py" (name to be changed eventually)
 Probable name "BackgroundZoom", this is a submenu to the
